@@ -1,0 +1,247 @@
+body {
+    overflow-x: hidden;
+}
+
+.albumbg {
+    background-color: hsl(0, 0%, 10%);
+}
+
+.albumimg {
+    width: 300px;
+    margin: 20px;
+    margin-left: 120px;
+}
+
+.albumimg-sec {
+    width: 300px;
+    margin: 20px;
+    margin-left: 60px;
+}
+
+.albumimg-thi {
+    width: 300px;
+    margin: 20px;
+    margin-left: 120px;
+}
+
+.img-swh {
+    margin-top: 50px;
+}
+
+@media only screen and (min-width: 1350px) {
+    .albumimg-thi {
+        margin-left: 280px;
+    }
+}
+
+/*@media only screen and (min-width: 501px max-width: 810px) {
+    .albumimg {
+        margin-left: 10px;
+    }
+}*/
+
+@media only screen and (min-width: 501px) and (max-width:810px) {
+    .albumimg {
+        margin-left: 10px;
+    }
+}
+
+.figcimg {
+    color: white;
+    /*font-display: 15px;*/
+    margin-left: 170px;
+}
+
+@media only screen and (max-width: 800px) {
+    .figcimg{
+        margin-left: 115px;
+    }
+}
+
+.figcimg-sec {
+    color: white;
+    /*font-display: 15px;*/
+    margin-left: 115px;
+}
+
+.seznam {
+    color: rgb(153, 153, 153);
+}
+
+.seznam-nazev {
+    color: white;
+    font-size: 18px;
+}
+
+.lyrics {
+    color: rgb(122, 122, 182);
+}
+
+.youtube {
+    color: rgb(190, 74, 74);
+}
+
+@media only screen and (max-width: 810px) {
+    .album-seznam {
+        margin-left: 4px;
+        font-size: 15px;
+    }
+    .seznam-nazev {
+        font-size: 15px;
+    }
+    .albumimg {
+        margin-left: 60px;
+    }
+    .album-seznamm {
+        margin-top: 10px !important;
+        margin-left: 80px !important;
+        align-self: center;
+    }
+}
+
+.album-seznam {
+    margin-top: 24px;
+    margin-left: 48px;
+    align-self: center;
+}
+
+.album-seznamm {
+    margin-top: 10px;
+    margin-left: 48px;
+    align-self: center;
+}
+
+.album-nadpis {
+    color: white;
+    text-align: center;
+}
+
+.center {
+    margin: 0 auto;
+}
+        /* Album One */
+/*@media only screen and (min-width: 850px max-width: 1050px) {
+    .center {
+        margin-left: 10%;
+    }
+}*/
+
+@media only screen and (min-width: 850px) and (max-width: 1050px) {
+    .center {
+        margin-left: 10%;
+    }
+}
+
+/*@media only screen and (min-width: 1060px max-width: 1200px) {
+    .center {
+        margin-left: 13%;
+    }
+}*/
+
+@media only screen and (min-width: 1060px) and (max-width: 1200px) {
+    .center {
+        margin-left: 13%;
+    }
+}
+
+/*@media only screen and (min-width: 1201px max-width: 1400px) {
+    .center {
+        margin-left: 14%;
+    }
+}*/
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    .center {
+        margin-left: 14%;
+    }
+}
+
+/*@media only screen and (min-width: 1401px max-width: 1600px) {
+    .center {
+        margin-left: 15%;
+    }
+}*/
+
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+    .center {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (min-width: 1601px) {
+    .center {
+        margin-left: 15%;
+    }
+}
+
+.hr {
+    border-color: whitesmoke;
+    margin: auto 20%;
+}
+
+.img-margin-top {
+    margin-top: 90px;
+}
+
+.img-margin-top-2 {
+    margin-top: 300px;
+}
+
+.part {
+    margin-left: 50%;
+    color: rgb(125, 170, 185);;
+    font-size: 22px;
+}
+
+.vqp1 {
+    margin-top: 11px;
+}
+
+.vqp2 {
+    margin-top: -7px;
+}
+
+/* POPUP */
+.modal-content{
+    background: transparent !important;
+    border: none !important; 
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    .vidpopup {
+        width: 800px !important;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 999px) {
+    .vidpopup {
+        width: 480px !important;
+    }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 894px) {
+    .albumimg-sec {
+        margin-left: 60px;
+    }
+    .albumimg {
+        margin-left: 40px !important;
+    }
+}
+
+.lyricspopup {
+    background-color: white !important;
+    border: 1px solid whitesmoke !important;
+}
+
+.lyricstitle {
+    color: rgb(71, 69, 69);
+    opacity: 0.6;
+}
+
+.l-popup-obsah {
+    text-align: center;
+}

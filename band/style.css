@@ -1,0 +1,88 @@
+input[type="checkbox"] {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    -webkit-appearance: none;
+    background-color: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+}
+
+input:checked[type="checkbox"] {
+    background-color: rgb(189, 36, 9);
+}
+
+input[type="checkbox"]:before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    transition: .5s;
+}
+
+input:checked[type="checkbox"]:before {
+    left: 40px;
+}
+
+.content {
+    display: block;
+    text-align: center !important;
+}
+.c {
+    display: none;
+}
+
+.call:checked ~ .content {
+    display: none !important;
+}
+.call:checked ~ .c {
+    display: block !important;
+    text-align: center !important;
+}
+
+.j {
+    float: right;
+}
+
+.l {
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+}
+
+
+
+.m {
+    text-align: center;
+}
+
+.r {
+    font-size: 30px;
+}
+
+.o {
+    font-size: 20px;
+}
+
+.spg-h1 {
+    color: rgb(223, 143, 39);
+}
+
+.imggg {
+    width: 350px;
+    height: 500px;
+    margin-left: 120px;
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1805px) {
+    .ii {
+        margin-left: 20% !important;
+    }
+}
