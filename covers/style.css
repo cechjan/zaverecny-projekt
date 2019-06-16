@@ -21,14 +21,14 @@
     }
 }*/
 
-.cover {
+.coverr {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 400px;
 }
 
-.original {
+.originall {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -36,16 +36,16 @@
 }
 
 @media screen and (min-width: 1000px) {
-    .cover {
+    .coverr {
         margin-right: 50px;
     }
-    .original {
+    .originall {
         margin-left: 50px;
     }
 }
 
 @media screen and (max-width: 786px) {
-    .original {
+    .originall {
         margin-top: 20px;
     }
 }
