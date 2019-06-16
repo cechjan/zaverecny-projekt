@@ -139,7 +139,7 @@
 
 
 
-slider {
+.slider {
     display: block;
     width: 100%;
     height: 940px;
@@ -148,7 +148,7 @@ slider {
     position: absolute;
 }
 
-slider > * {
+.slider > * {
     position: absolute;
     display: block;
     width: 100%;
@@ -158,33 +158,33 @@ slider > * {
     overflow: hidden;
 }
 
-slide:nth-child(1) {
+.slide:nth-child(1) {
     left: 0%;
     animation-delay: -1s;
     background-image: url(../Steam-Powered-Giraffe-on-Stage.jpg);
     background-size: cover;
     background-position: center;
 }
-slide:nth-child(2) {
+.slide:nth-child(2) {
     animation-delay: 2s;
     background-image: url(../tumblr_static_89oki52m65sskcso0sg04oo08_2048_v2.jpg);
     background-size: cover;
     background-position: center;
 }
-slide:nth-child(3) {
+.slide:nth-child(3) {
     animation-delay: 5s;
     background-image: url(../steam-powered-giraffe-wallpaper_332119.png);
     background-size: cover;
     background-position: center;
 }
-slide:nth-child(4) {
+.slide:nth-child(4) {
     animation-delay: 8s;
     background-image: url(../bg2.png);
     background-size: cover;
     background-position: center;
 }
 
-slide p {
+.slide p {
     /*font-family:*/
     font-size: 70px;
     text-align: center;
@@ -215,22 +215,297 @@ padding-top: 950px;
 
 
 @media only screen and (max-width: 800px) {
-.title2 {
-  height: 400px;
-}
-slide p {
-  margin-top: 200px;
-}
-.kk {
-  padding-top: 410px;
-}
+    .title2 {
+        height: 400px;
+    }
+    slide p {
+        margin-top: 200px;
+    }
+    .kk {
+        padding-top: 410px;
+    }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1200px) {
-.title2 {
-  height: 800px;
+    .title2 {
+    height: 800px;
+    }
+    .kk {
+    padding-top: 810px;
+    }
 }
-.kk {
-  padding-top: 810px;
+
+
+.sliderr {
+    display: block;
+    width: 100%;
+    height: 450px;
+    background-color: #1f1f1f;
+    overflow: hidden;
+    position: absolute;
 }
+
+.sliderr > * {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    animation: slide 12s infinite;
+    overflow: hidden;
+}
+
+.slidee:nth-child(1) {
+    left: 0%;
+    animation-delay: -1s;
+    /*background-image: url(../band/albumimg1.png);*/
+    background-size: cover;
+    background-position: center;
+}
+.slidee:nth-child(2) {
+    animation-delay: 2s;
+    /*background-image: url(../band/albumimg2.png);*/
+    background-size: cover;
+    background-position: center;
+}
+.slidee:nth-child(3) {
+    animation-delay: 5s;
+    /*background-image: url(../band/albumimg1.png);*/
+    background-size: cover;
+    background-position: center;
+}
+.slidee:nth-child(4) {
+    animation-delay: 8s;
+    /*background-image: url(../band/albumimg2.png);*/
+    background-size: cover;
+    background-position: center;
+}
+
+.imgalbum {
+    width: 100%;
+}
+
+.slidee p {
+    /*font-family:*/
+    font-size: 70px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 340px;
+    color: #fff;
+}
+
+@keyframes slidee {
+  0% { left: 100%; width: 100%; }
+  5% { left: 0%; }
+  25% { left: 0%; }
+  30% { left: -100%; width: 100%; }
+  30.0001% { left: -100%; width: 0%; }
+  100% { left: 100%; width: 0%; }
+}
+
+.title3 {
+    margin: 20px auto;
+}
+
+.sliderrr {
+    display: block;
+    width: 100%;
+    height: 850px;
+    background-color: #1f1f1f;
+    overflow: hidden;
+    position: absolute;
+}
+
+.sliderrr > * {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    animation: slide 12s infinite;
+    overflow: hidden;
+}
+
+.slideee:nth-child(1) {
+    left: 0%;
+    animation-delay: -1s;
+    /*background-image: url(../band/comic1.png);*/
+    background-size: cover;
+    background-position: center;
+}
+.slideee:nth-child(2) {
+    animation-delay: 2s;
+    /*background-image: url(../band/comic2.png);*/
+    background-size: cover;
+    background-position: center;
+}
+.slideee:nth-child(3) {
+    animation-delay: 5s;
+    /*background-image: url(../band/comic1.png);*/
+    background-size: cover;
+    background-position: center;
+}
+.slideee:nth-child(4) {
+    animation-delay: 8s;
+    /*background-image: url(../band/comic2.png);*/
+    background-size: cover;
+    background-position: center;
+}
+
+.slideee p {
+    /*font-family:*/
+    font-size: 70px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 340px;
+    color: #fff;
+}
+
+@keyframes slideee {
+  0% { left: 100%; width: 100%; }
+  5% { left: 0%; }
+  25% { left: 0%; }
+  30% { left: -100%; width: 100%; }
+  30.0001% { left: -100%; width: 0%; }
+  100% { left: 100%; width: 0%; }
+}
+
+/*@media screen and (max-width: 1600px) and (min-width: 1400px) {
+    .title3 {
+        height: 200px;
+    }
+
+    .sliderr {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 1399px) and (min-width: 1000px){
+    .title3 {
+        height: 100px;
+    }
+
+    .sliderr {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 999px) and (min-width: 500px){
+    .title3 {
+        height: 40px;
+    }
+
+    .sliderr {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 499px) and (min-width: 300px){
+    .title3 {
+        height: 10px;
+    }
+
+    .sliderr {
+        height: 200px;
+    }
+}*/
+
+.swh {
+    margin-top: 440px;
+}
+
+.cover {
+    margin-top: 840px;
+}
+
+@media screen and (max-width: 1350px) and (min-width: 1000px) {
+    .sliderr {
+        height: 300px !important;
+    }
+
+    .sliderrr {
+        height: 600px !important;
+    }
+
+    .swh {
+        margin-top: 290px !important;
+    }
+
+    .cover {
+        margin-top: 590px;
+    }
+}
+
+@media screen and (max-width: 999px) and (min-width: 800px) {
+    .sliderr {
+        height: 250px !important;
+    }
+
+    .sliderrr {
+        height: 450px !important;
+    }
+    
+    .swh {
+        margin-top: 240px !important;
+    }
+
+    .cover {
+        margin-top: 440px;
+    }
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+    .sliderr {
+        height: 200px !important;
+    }
+
+    .sliderrr {
+        height: 400px !important;
+    }
+
+    .swh {
+        margin-top: 180px;
+    }
+    
+    .cover {
+        margin-top: 380px;
+    }
+}
+
+@media screen and (max-width: 599px) and (min-width: 400px) {
+    .sliderr {
+        height: 150px !important;
+    }
+
+    .sliderrr {
+        height: 300px !important;
+    }
+
+    .swh {
+        margin-top: 140px;
+    }
+
+    .cover {
+        margin-top: 280px;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .sliderr {
+        height: 100px !important;
+    }
+
+    .sliderrr {
+        height: 200px !important;
+    }
+
+    .swh {
+        margin-top: 90px;
+    }
+
+    .cover {
+        margin-top: 180px;
+    }
 }
